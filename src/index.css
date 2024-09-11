@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  font-family:  "open sans", verdana, Georgia;
+}
+.staf1{
+  height: 0;
+  width: 26%;
+  position: absolute;
+  margin-left: 305px;
+  display: none;
+}
+.staf2{
+  height: 90vh;
+  width: 26%;
+  position: absolute;
+  margin-left: 305px;
+  z-index: 1000;
+  display: block;
+  box-shadow: 2px 3px 8px 2px rgb(214, 213, 213);
+}
+.subjects-overflow{
+  overflow-wrap:anywhere;
+}
+.table-box-shadow{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

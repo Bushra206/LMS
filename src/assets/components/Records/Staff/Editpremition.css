@@ -1,0 +1,16 @@
+.staf1{
+    height: 0;
+    width: 26%;
+    position: absolute;
+    margin-left: 305px;
+    display: none;
+}
+.staf2{
+    height: 90vh;
+    width: 26%;
+    position: absolute;
+    margin-left: 305px;
+    z-index: 1000;
+    display: block;
+    box-shadow: 2px 3px 8px 2px rgb(214, 213, 213);
+}
